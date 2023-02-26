@@ -1,0 +1,49 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tmprature</title>
+    <script src="./index.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+  </head>
+  <body>
+    <h1>Temperature Search</h1>
+    <div>
+      <input type="text" class="search-bar" placeholder="Search here" />
+      <button class="search">search</button>
+    </div>
+    <div class="info">
+      <div class="imageContainer">
+        <a id="imageLink" href="#">
+          <img alt="" id="unsplashImage" />
+        </a>
+      </div>
+      <div class="card_info">
+        <h2 class="city" id="city">Weather in HoChiMinh</h2>
+        <h1 class="temp">31°C</h1>
+        <!-- <h1 class="time">Local Time: 00:00</h1> -->
+        <div class="flex">
+          <img src="" alt="" class="icon" />
+          <div class="description">Cloudy</div>
+        </div>
+        <div class="under">
+          <div class="underflex">
+            <div class="miniflex">
+              <img src="images/humidity.png" alt="" class="icon" />
+              <div>Humidity</div>
+            </div>
+            <div class="humidity">60%</div>
+          </div>
+          <div class="underflex">
+            <div class="miniflex">
+              <img src="images/wind.png" alt="" class="icon" />
+              <div>Wind speed</div>
+            </div>
+            <div class="wind">6.2 km/h</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
